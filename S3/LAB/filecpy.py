@@ -1,0 +1,6 @@
+source = open("source.txt","r")
+destination = open("destination.txt","w")
+destination.write(source.read())
+source.close()
+destination.close()
+print("File copy successfully")
